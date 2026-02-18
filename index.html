@@ -74,11 +74,11 @@
 
 
   <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
+  <title> NavTrust - TASL </title>
   
   <!-- Favicon and App Icons -->
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link rel="apple-touch-icon" href="static/images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="static/images/tasl.ico">
+  <link rel="apple-touch-icon" href="static/images/tasl.ico">
   
   <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
@@ -188,50 +188,10 @@
 
   <!-- More Works Dropdown -->
   <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
+    <a href="https://tasl.ucr.edu/publications/" class="more-works-btn" target="_blank" title="Visit Our Lab">
       <i class="fas fa-flask"></i>
       More Works
-      <i class="fas fa-chevron-down dropdown-arrow"></i>
-    </button>
-    <div class="more-works-dropdown" id="moreWorksDropdown">
-      <div class="dropdown-header">
-        <h4>More Works from Our Lab</h4>
-        <button class="close-btn" onclick="toggleMoreWorks()">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
-          <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    </div>
+    </a>
   </div>
 
   <main id="main-content">
@@ -241,23 +201,48 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-2 publication-title"> NavTrust: Benchmarking Trustworthiness <br/> for Embodied Navigation </h1>
             <div class="is-size-5 publication-authors">
               <!-- TODO: Replace with your paper authors and their personal links -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                <a href="https://www.linkedin.com/in/yash612/" target="_blank">Yash Chaudhary</a><sup>1</sup><sup>*</sup>,</span>
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/huaidejiang/" target="_blank">Huaide Jiang</a><sup>1,2</sup><sup>*</sup>,</span>
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/yuping-wang-5a7178185/" target="_blank">Yuping Wang</a><sup>1,3</sup>,</span>
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/raghav103/" target="_blank">Raghav Sharma</a><sup>4</sup>,</span>
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/manan-mehta-100379193/" target="_blank">Manan Mehta</a><sup>5</sup>,</span>
+              <span class="author-block">
+                <a href="https://lichao-sun.github.io/" target="_blank">Lichao Sun</a><sup>6</sup>,</span>
+              <span class="author-block">
+                <a href="https://zhiwenfan.github.io/" target="_blank">Zhiwen Fan</a><sup>7</sup>,</span>
+              <span class="author-block">
+                <a href="https://vztu.github.io/" target="_blank">Zhengzhong Tu</a><sup>7</sup>,</span>
+              <span class="author-block">
+                <a href="https://jiachenli94.github.io/" target="_blank">Jiachen Li</a><sup>1</sup><sup>‡</sup>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
                     <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
+                    <span class="author-block"><sup>1</sup>University of California, Riverside &nbsp;&nbsp;&nbsp; 
+                      <sup>2</sup>Southern University of Science and Technology &nbsp;&nbsp;&nbsp; 
+                      <sup>3</sup>University of Michigan &nbsp;&nbsp;&nbsp; 
+                      <sup>4</sup>Workday &nbsp;&nbsp;&nbsp; 
+                      <sup>5</sup>University of Southern California &nbsp;&nbsp;&nbsp; 
+                      <sup>6</sup>Lehigh University &nbsp;&nbsp;&nbsp; 
+                      <sup>7</sup>Texas A&M University &nbsp;&nbsp;&nbsp; </span>
                     <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup> Equal Contribution &nbsp;&nbsp;&nbsp; <sup>‡</sup> Correponding Author</small></span>
+                    <br>
+                    <span class="author-block" style="display: flex; align-items: center; justify-content: center; gap: 8px;">
+                      <img src="static/images/tasl.svg" alt="TASL Lab Logo" style="height: 20px; width: auto;">
+                      <a href="https://tasl.ucr.edu/" target="_blank" style="font-weight: 500; color: #2563eb; text-decoration: underline;">
+                        Trustworthy Autonomous Systems Laboratory (TASL)
+                      </a>
+                    </span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -318,14 +303,18 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
+      <h1 class="title is-3 has-text-centered" style="margin-bottom: 30px;">Are Current Navigation Models Trustworthy Enough?</h1>
       <!-- TODO: Replace with your teaser video -->
       <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
         <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
+        <source src="static/videos/teaser_video.mp4" type="video/mp4">
       </video>
       <!-- TODO: Replace with your video description -->
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        Visualization of trajectories from <a href="https://naoki.io/portfolio/vlfm.html" target="_blank" style="color: #3273dc; text-decoration: underline;">VLFM</a>, 
+        <a href="https://pku-epic.github.io/NaVid/" target="_blank" style="color: #3273dc; text-decoration: underline;">NaVid</a>, 
+        <a href="https://pku-epic.github.io/Uni-NaVid/" target="_blank" style="color: #3273dc; text-decoration: underline;">Uni-NaVid</a> and 
+        <a href="https://b0b8k1ng.github.io/WMNav/" target="_blank" style="color: #3273dc; text-decoration: underline;">WMNav</a> under different types of corruptions.
       </h2>
     </div>
   </div>
@@ -334,14 +323,20 @@
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
-  <div class="container is-max-desktop">
+  <div class="container is-max-widescreen">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Embodied navigation remains challenging due to cluttered layouts, complex semantics, and language-conditioned instructions. Recent breakthroughs in complex indoor domains require robots to interpret cluttered scenes, reason over long-horizon visual memories, and follow natural language instructions.
+            Broadly, there are two major categories of embodied navigation: Vision-Language Navigation (VLN), where agents navigate by following natural language instructions; and Object-Goal Navigation (OGN), where agents navigate to a specified target object.
+            However, existing work primarily evaluates model performance under nominal conditions, overlooking the potential corruptions that arise in real-world settings.
+            To address this gap, we present NavTrust, a unified benchmark that systematically corrupts input modalities, including RGB, depth, and instructions, in realistic scenarios and evaluates their impact on navigation performance.
+            To the best of our knowledge, NavTrust is the first benchmark to expose embodied navigation agents to diverse RGB-Depth corruptions and instruction variations in a unified framework.
+            Our extensive evaluation of seven state-of-the-art approaches reveals substantial success-rate degradation under realistic corruptions, which highlights critical robustness gaps and provides a roadmap toward more trustworthy embodied navigation systems.
+            As part of this roadmap, we systematically evaluate four distinct mitigation strategies: data augmentation, teacher-student knowledge distillation, safeguard LLM, and lightweight adapter tuning, to enhance robustness. Our experiments offer a practical path for developing more resilient embodied agents.
           </p>
         </div>
       </div>
@@ -350,125 +345,134 @@
 </section>
 <!-- End paper abstract -->
 
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
+<section class="section">
+  <div class="container is-max-widescreen">
+    <div class="columns is-centered"> <div class="column is-four-fifths">
+        <h2 class="title is-3 has-text-centered">Potential Issues in Trustworthiness and Reliability</h2>
         
+        <div class="columns is-vcentered">
+          
+          <div class="column is-5">
+            <img src="static/images/teaser.png" alt="Potential Issues in Trustworthiness and Reliability" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.1); display: block;"/>
+          </div>
+          
+          <div class="column">
+            <div class="content has-text-justified">
+              <p>
+                <!-- Despite significant progress, current deep learning-based agents lack the trustworthiness needed for real-world deployment.  -->
+                State-of-the-art VLN agents are known to fail under minor linguistic perturbations, while top OGN agents break down under small domain shifts like low lighting or motion blur, leading to unreliable behaviors. 
+                These vulnerabilities are often ignored by existing benchmarks, which typically report performance on clean, idealized inputs. 
+                The existing work typically evaluates perceptual and linguistic robustness in isolation, often ignores depth sensor corruptions, and lacks a unified benchmark for comparing mitigation strategies.
+              </p>
+            </div>
+          </div>
+          
+        </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-widescreen">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Corruptions Applied</h2>
+        <div class="content has-text-justified">
+          <img src="static/images/corruptions.png" alt="Corruptions Applied" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.1); display: block; margin: 0 auto 20px auto;"/>
+          <p>
+            An overall illustration of three types of corruptions supported in our NavTrust benchmark, which highlights robustness challenges in language instructions and onboard sensor measurements.
+          </p>
+        </div>
       </div>
     </div>
-  </section>
-<!--End paper poster -->
+  </div>
+</section>
 
+<section class="section">
+  <div class="container is-max-widescreen">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Mitigation Strategies Applied</h2>
+        <div class="content has-text-justified">
+          <img src="static/images/mitigation.png" alt="Mitigation Strategies Applied" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.1); display: block; margin: 0 auto 20px auto;"/>
+          <p>
+            To address the vulnerabilities identified by our NavTrust benchmark, we investigate four strategies for enhancing agent robustness on a subset of R2R dataset. 
+            These complementary mechanisms provide a constructive path toward developing more trustworthy and resilient embodied navigation systems.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
+<section class="section">
+  <div class="container is-max-widescreen">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Corruption Results</h2>
+        <div class="content has-text-justified">
+          <img src="static/images/benchmark_result.png" alt="Corruption Results" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.1); display: block; margin: 0 auto 20px auto;"/>
+          <p>
+            Success Rate (%) ↑ and SPL ↑ across corruption types (left: RGB corruption, middle: depth corruption, right: instruction corruption; L-L: Low-lighting). 
+            The first and the second rows show the PRS ↑ (Performance Retention Score, quantifies robustness to corruptions by reporting the fraction of clean performance an agent retains on average) based on SR and SPL.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-widescreen">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Mitigation Results<br>
+          <span class="is-size-4" style="font-style: italic; font-weight: 400; color: #666; font-family: 'Inter', sans-serif;">of Data Augmentation, Teacher-Student Distillation and Adapter</span></h2>
+        <div class="content has-text-justified">
+          <img src="static/images/mitigation_RGB_Depth.png" alt="Mitigation Results" style="max-width: 55%; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.1); display: block; margin: 0 auto 20px auto;"/>
+          <p>
+            Corruption mitigation strategies: SR per corruption for ETPNav where (σ) indicates the intensity 
+            (Adap.: Adapter, DA: Data Augmentation, PF: Per-frame, PE: Per-episode, SD: Success Rate Distributed, T-S distil.: Teacher-Student distillation, L-L: Low-lighting, results tested in R2R dataset).
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-widescreen">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Mitigation Results<br>
+          <span class="is-size-4" style="font-style: italic; font-weight: 400; color: #666; font-family: 'Inter', sans-serif;">of Safeguard LLM</span></h2>
+        <div class="content has-text-justified">
+          <img src="static/images/mitigation_Instruction.png" alt="Mitigation Results" style="max-width: 50%; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.1); display: block; margin: 0 auto 20px auto;"/>
+          <p>
+            Instruction-level mitigation strategies on R2R dataset: SR across instruction variants.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h1 class="title is-3 has-text-centered" style="margin-bottom: 30px;">Video</h1>
+      <!-- TODO: Replace with your teaser video -->
+      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
+        <!-- TODO: Add your video file path here -->
+        <source src="static/videos/Navtrust_rss.mp4" type="video/mp4">
+      </video>
+      <!-- TODO: Replace with your video description -->
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
@@ -480,12 +484,12 @@
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
+      <pre id="bibtex-code"><code>@misc{
+  chaudhary2026navtrust,
+  title={NavTrust: Benchmarking Trustworthiness for Embodied Navigation},
+  author={Yash Chaudhary and Huaide Jiang and Yuping Wang and Raghav Sharma and Manan Mehta and Lichao Sun and Zhiwen Fan and Zhengzhong Tu and Jiachen Li},
+  year={2026},
+  url={https://openreview.net/forum?id=ANbAB0tXv3}
 }</code></pre>
     </div>
 </section>
